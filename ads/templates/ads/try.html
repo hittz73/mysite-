@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>123</title>
+</head>
+<body>
+    <h1>Список студентов</h1>
+        {% for student in students %}
+    <h5>Имя студента:</h5>{{student.name}} <h5>группа:</h5> {{student.group}}
+        {% endfor %}
+</body>
+</html>
